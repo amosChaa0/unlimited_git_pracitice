@@ -1,0 +1,5 @@
+sentence=input("enter a sentence:")
+move=input("which sentence do you want to replace")
+rep=input("what sentence you want to rewrite: ")
+moved_sentence=sentence.replace(move,rep)
+print(moved_sentence)
